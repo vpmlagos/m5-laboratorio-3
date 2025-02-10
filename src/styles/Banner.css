@@ -1,0 +1,41 @@
+/* Estilo para la imagen en el banner */
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 30rem; 
+    object-fit: cover; 
+  }
+  
+  /* Estilo del contenedor del banner */
+  .banner-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Estilo para el contenido del banner */
+  .banner-content {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.4); 
+
+  }
+  
+  /* Estilo para el título del banner */
+  .banner-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto */
+  }
+  
+  /* Estilo para el botón */
+  .banner-content .btn {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

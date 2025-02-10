@@ -1,0 +1,19 @@
+
+.contenedorCita {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-primary {
+    background-color: #179fcd; ;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #92d0ea; 
+}

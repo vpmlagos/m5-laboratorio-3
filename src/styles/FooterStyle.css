@@ -1,0 +1,50 @@
+/* Estilos para el footer */
+footer.bg-light {
+    width: 100vw; /* Ocupa el 100% del ancho de la ventana (viewport) */
+    position: relative; /* No lo fija, se mueve con el contenido */
+    padding: 10px 0; /* Padding vertical para el footer */
+    margin-top: 30px; /* Espacio entre el contenido principal y el footer */
+    background-color: white;
+    border-top: 1px solid #ddd; /* Línia divisoria superior */
+    left: 0; /* Asegura que empiece desde el borde izquierdo */
+    right: 0; /* Asegura que termine en el borde derecho */
+    z-index: 10; /* Hace que el footer esté encima de otros elementos si es necesario */
+  }
+  
+  /* Asegura que el contenedor se ajuste al 100% del ancho sin afectar el contenido */
+  .footerContainer {
+    padding: 10px 0; /* Padding interno del footer */
+    max-width: 1140px; /* Limita el ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido dentro del contenedor */
+    text-align: center;
+  }
+  
+  /* Estilos de los enlaces del footer */
+  .footerText {
+    display: flex;
+    justify-content: center; /* Centra los enlaces de navegación */
+    gap: 20px; /* Espacio entre los enlaces */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerText .nav-item {
+    margin: 0;
+  }
+  
+  .text-muted {
+    color: #6c757d; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+  }
+  
+  .text-muted:hover {
+    color: #0056b3;
+  }
+  
+  footer p {
+    text-align: center;
+    color: #6c757d; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+  }  

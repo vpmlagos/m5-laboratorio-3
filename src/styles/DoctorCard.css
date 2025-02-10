@@ -1,0 +1,27 @@
+.cardImage {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    object-position: center; 
+  }
+  .cardDoctor:hover {
+    transform: scale(1.05);
+    
+    filter: brightness(1);
+  }
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .card-text {
+    color: #777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  

@@ -1,0 +1,85 @@
+/* HeaderStyle.css */
+
+.headerContainer {
+    background-color: white; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    z-index: 999; 
+    padding: 10px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+body {
+    margin-top: 80px; 
+}
+
+/* Estilo del logo */
+.navbar-brand {
+    display: flex; 
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    max-width: 250px;  
+    height: auto;  
+}
+
+/* Estilo para el Navbar en pantallas pequeñas */
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /* Los enlaces se apilan verticalmente en pantallas pequeñas */
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;  
+        padding-top: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 15px 20px;  
+        width: 100%; 
+    }
+}
+
+/* Estilo para el Navbar en pantallas grandes */
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+
+    .navbar-nav .nav-link {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Estilo general para los enlaces */
+.navbar .nav-link {
+    font-size: 1.2rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover para los enlaces */
+.navbar .nav-link:hover {
+    color: #179fcd;
+}
+
+/* Ajustes cuando el navbar es expandido */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 17px 20px;
+}

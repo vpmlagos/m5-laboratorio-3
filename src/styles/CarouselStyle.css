@@ -1,0 +1,84 @@
+/* CarouselStyle.css */
+
+/* Fondo del carrusel */
+.carousel {
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Imágenes del carrusel */
+.carousel-item img {
+  filter: brightness(0.9);
+  max-height: 37rem;
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+  filter: brightness(1);
+}
+
+/* Estilo del texto de los captions */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carousel-caption h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f8f9fae5;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+  font-size: 1.2rem;
+  color: #f8f9fae5;
+  margin-bottom: 15px;
+}
+
+/* Botón del carrusel */
+.carousel-caption .btn {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  background-color: #179fcd; 
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.6s ease;
+}
+
+.carousel-caption .btn:hover {
+  background-color: #92d0ea; 
+  border: none;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 0.9rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 0.9rem;
+  }
+}
