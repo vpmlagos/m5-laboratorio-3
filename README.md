@@ -3,7 +3,7 @@
 
 <code>
 git clone git@github.com:vpmlagos/m5-laboratorio-3.git
-cd m4-l3-app <br>
+cd m5-laboratorio-3 <br>
 npm install<br>
 npm install react-router-dom<br>
 npm install prop-types<br>
